@@ -31,4 +31,11 @@ public class SumEvenTest {
         int expected = 0;
         assertEquals(expected, sum);
     }
+    
+    @Test 
+    public void testSumEven_Zero() {
+        int sum = ev.sumEven(0);
+        int expected = 0;
+        assertEquals(expected, sum);
+    }
 }
