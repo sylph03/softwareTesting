@@ -25,4 +25,10 @@ public class SumEvenTest {
         assertEquals(expected, sum);
     }
     
+    @Test 
+    public void testSumEven_Negative() {
+        int sum = ev.sumEven(-5);
+        int expected = 0;
+        assertEquals(expected, sum);
+    }
 }
