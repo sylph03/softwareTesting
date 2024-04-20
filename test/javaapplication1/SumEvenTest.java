@@ -38,4 +38,11 @@ public class SumEvenTest {
         int expected = 0;
         assertEquals(expected, sum);
     }
+    
+    @Test 
+    public void testSumEven_Large() {
+        int sum = ev.sumEven(100);
+        int expected = 2550;
+        assertEquals(expected, sum);
+    }
 }
